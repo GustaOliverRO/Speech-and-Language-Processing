@@ -1,14 +1,15 @@
 # Introduction #
 
-*## What is a LArge Language Model ? ##*
+## What is a LArge Language Model ? ##
+
 	- LLM is a computacional system that can predict the next
 	word from previous words. That is, given a context or 
 	prefix of words, a laguage model assigns a probability
 	distribution over possible next word.
 	
 	Ex: "so long and thanks for ..."
-			... = ~all~ or ~everthing~ (high probability)
-			... = ~of~or ~wasn't~ (low probability)
+			'...' = *all* or *everthing* (high probability)
+			'...' = *of* or *wasn't* (low probability)
 			
 	- The language model is a large neural network that takes
 	as input a *context*, the sequence of works seen so far, 
@@ -22,7 +23,7 @@
 	a sequence of tokens. This process is call 
 	*tokenization*, with the algoritm *BPE*;
 	
-	- sampling or perplexity
+	- *sampling or perplexity*
 	
 	- The performance of large language models is mainly
 	 determined by 3 factors: model size (the number of
@@ -49,7 +50,7 @@
 	 - Prompts, is a text strings that a user issues to a
 	 langauge model to get the model to do something useful.
 	 
-	 -> Shannon GAME ?, f I play a Shannon game with you, I 
+	 -> Shannon GAME ?, if I play a Shannon game with you, I 
 	 select a short text passage and you have to guess the
 	 words in it, one by one, left to right. You first guess 
 	 the first word. If you’re correct I tell you; if you’re 
@@ -58,7 +59,8 @@
 	 every word you writing down the correct text so far, to 
 	 help you predict upcoming words.
 
-*## Underpinnings: Neural Networks and Embeddings##*
+## Underpinnings: Neural Networks and Embeddings##
+
 	Modern implementation of LM is two:
 	- *Neural Networks*, machine learning systems that can be 
 	trained from data, as the basic camputational mechanism;
@@ -73,12 +75,12 @@
 	algorithm based on gradient descent (Chapter 4), for which 
 	we’ll see more details in Chapter 6; (Open/Close-Weight
 	
-*## Historiacal Context ##*
+## Historiacal Context ##
 	
 	Symbolic Structure->
 	
 		 
-*## How Language Models are Trained ##*
+## How Language Models are Trained ##
 
 	- Pretraining
 	
